@@ -13,6 +13,7 @@
 		A97344DE282D436F00E5BFF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97344DC282D436F00E5BFF7 /* Main.storyboard */; };
 		A97344E0282D437100E5BFF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97344DF282D437100E5BFF7 /* Assets.xcassets */; };
 		A97344E3282D437100E5BFF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97344E1282D437100E5BFF7 /* LaunchScreen.storyboard */; };
+		A97344EB282D52EB00E5BFF7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A97344EA282D52EB00E5BFF7 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A97344DF282D437100E5BFF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A97344E2282D437100E5BFF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A97344E4282D437100E5BFF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97344EA282D52EB00E5BFF7 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		A97344CA282D436F00E5BFF7 = {
 			isa = PBXGroup;
 			children = (
+				A97344EA282D52EB00E5BFF7 /* .gitignore */,
 				A97344D5282D436F00E5BFF7 /* LittlePink */,
 				A97344D4282D436F00E5BFF7 /* Products */,
 			);
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97344EB282D52EB00E5BFF7 /* .gitignore in Resources */,
 				A97344E3282D437100E5BFF7 /* LaunchScreen.storyboard in Resources */,
 				A97344E0282D437100E5BFF7 /* Assets.xcassets in Resources */,
 				A97344DE282D436F00E5BFF7 /* Main.storyboard in Resources */,
@@ -289,11 +293,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QV7VX93CX3;
 				INFOPLIST_FILE = LittlePink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = za.qitao.LittlePink;
+				PRODUCT_BUNDLE_IDENTIFIER = za.qitao.pink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -308,11 +313,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QV7VX93CX3;
 				INFOPLIST_FILE = LittlePink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = za.qitao.LittlePink;
+				PRODUCT_BUNDLE_IDENTIFIER = za.qitao.pink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
